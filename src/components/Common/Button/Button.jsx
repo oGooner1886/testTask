@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Button.module.css";
 import refresh from "../../../assets/Refresh.svg";
-const Button = ({onClick}) => {
+const Button = ({ onClick }) => {
   return (
     <button className={style.buttonRefresh} onClick={onClick}>
       <div>Обновить</div>

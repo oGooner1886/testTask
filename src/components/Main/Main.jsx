@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useMemo } from "react";
 import Card from "../Card/Card";
 import Context from "../../Context/Context";
 
@@ -6,7 +6,7 @@ const Main = () => {
   const value = useContext(Context);
   const { data } = value;
 
-  const matches = data.data.matches;
+  const matches = useMemo(() => data.data.matches, [data.data.matches]);
   return (
     <main>
       {matches.map((item, index) => {

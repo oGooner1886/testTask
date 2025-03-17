@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useCallback, useContext } from "react";
 import style from "./Header.module.css";
 import logo from "../../assets/Match Tracker.svg";
 import Button from "../Common/Button/Button";
@@ -9,11 +9,9 @@ const Header = () => {
   const value = useContext(Context);
   const { error } = value;
 
-  const refreshPage = () => {
-    console.log("hey");
-
+  const refreshPage = useCallback(() => {
     window.location.reload();
-  };
+  }, []);
   return (
     <header>
       <div className={style.wrapper}>
