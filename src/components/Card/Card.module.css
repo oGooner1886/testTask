@@ -1,0 +1,12 @@
+.wrapper {
+  width: 87px;
+  background: #0b0e12;
+  width: 100%;
+  border-radius: 4px;
+  /* padding: 16px; */
+}
+
+.details{
+  display: flex;
+  width: 100%;
+}

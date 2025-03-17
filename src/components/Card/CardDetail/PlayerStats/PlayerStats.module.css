@@ -1,0 +1,38 @@
+.wrapper {
+  background: #101318;
+  display: flex;
+  border-radius: 4px;
+  gap: 8px;
+  padding: 0 15px 0 0;
+  height: 52px;
+  margin-bottom: 8px;
+}
+.player {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 8px;
+  gap: 8px;
+}
+.score {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 8px;
+  gap: 8px;
+}
+.ava {
+  width: 36px;
+  height: 36px;
+  
+}
+
+.kills {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fafafa66;
+}
+
+.kills span {
+  color: #fff;
+}

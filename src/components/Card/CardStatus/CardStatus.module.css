@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 6px 34px;
+}
+
+.live {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 6px 34px;
+  background: #43ad28;
+}
+
+
+.finished {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 6px 34px;
+  background: #eb0237;
+}
+.scheduled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 6px 34px;
+  background: #eb6402;
+}

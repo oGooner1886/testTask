@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  /* max-width: 874px; */
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
